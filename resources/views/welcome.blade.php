@@ -4,8 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FinServe India | Car Finance & Loan Services</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>PAIISAA24 Solution Pvt Ltd | Car Finance & Loan Services</title>
+    <meta name="description"
+        content="Get the best car finance deals with Paiisaa24. Low interest rates, quick approval, and flexible repayment options for new and used car loans. Apply online today!">
+    <meta name="keywords"
+        content="car finance, auto loans, car loans, vehicle financing, car loan approval, low interest car loans, used car finance, new car loans, quick car loan, Paiisaa24">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.paiisaa24.in/">
+    <meta property="og:title" content="Paiisaa24 - Car Finance & Loan Services | Affordable Auto Loans">
+    <meta property="og:description"
+        content="Get the best car finance deals with Paiisaa24. Low interest rates, quick approval, and flexible repayment options for new and used car loans.">
+    <meta property="og:site_name" content="Paiisaa24">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         /* CSS Reset & Variables */
@@ -979,18 +991,22 @@
                         @endif
 
                         @if (Session::has('success'))
-                            <div class="alert alert-success bg-success text-light border-0 alert-dismissible fade show" role="alert">
+                            <div class="alert alert-success bg-success text-light border-0 alert-dismissible fade show"
+                                role="alert">
                                 <i class="fas fa-check-circle me-2"></i>
                                 {{ session('success') }}
-                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="alert" aria-label="Close"></button>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="alert"
+                                    aria-label="Close"></button>
                             </div>
                         @endif
 
                         @if (Session::has('error'))
-                            <div class="alert alert-danger bg-danger text-light border-0 alert-dismissible fade show" role="alert">
+                            <div class="alert alert-danger bg-danger text-light border-0 alert-dismissible fade show"
+                                role="alert">
                                 <i class="fas fa-exclamation-circle me-2"></i>
                                 {{ session('error') }}
-                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="alert" aria-label="Close"></button>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="alert"
+                                    aria-label="Close"></button>
                             </div>
                         @endif
                     </div>
@@ -1085,7 +1101,9 @@
             </div>
         </div>
     </footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 
     <script>
         // Mobile Menu Toggle
